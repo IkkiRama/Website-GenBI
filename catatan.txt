@@ -1,0 +1,112 @@
+
+fitur
+livewire -> optional
+
+php artisan make:controller PhotoController --resource
+php artisan make:model Flight -mfscr
+
+
+php artisan migrate:fresh --seed
+
+step by step daftarnya
+export excel atau pdf
+dashboard yang menampilkan data berapa banyak siswa yang daftar dan presentasi laki-laki dan perempuannya berapa menggunakan pie chart
+
+
+
+Beasiswa
+nama
+tgl dibuka
+tgl ditutup
+deskripsi
+pamflet
+
+
+Pendaftaran
+iduser
+idbeasiswa
+
+
+
+
+
+User
+
+PAGE PROFILE
+
+id
+password
+photo
+isKirim
+nama
+email
+
+
+Tempat & Tgl.Lahir (2 form)
+jenis kelamin
+agama
+Gol.Darah
+suku bangsa
+
+{ketika ditampilkan datanya diatas alamat}
+nama ayah
+nama ibu
+
+nama dokumen
+
+
+wa
+instagram
+
+
+PAGE UNIV
+univ
+fakultas
+jurusan
+semester
+NIM
+IP
+IPK
+
+
+PAGE ALAMAT
+
+Alamat_saat_ini
+
+provinsi
+kabupaten
+alamat (sesuai ktp)
+
+
+
+PAGE PRESTASI
+nama
+tingkat
+
+PAGE ORGANISASI
+jabatan
+nama organisasi
+
+
+PAGE UPLOAD DOKUMEN
+
+
+
+Sosial dalam bentuk icon
+wa
+instagram
+
+
+
+
+Pendaftaran Beasiswa
+
+
+
+
+tolong bikinkan feker untuk data dibawah ini
+$table->string('nama_beasiswa');
+            $table->date('tgl_dibuka');
+            $table->date('tgl_ditutup');
+            $table->text('deskripsi_beasiswa');
+            $table->string('pamflet_beasiswa');
